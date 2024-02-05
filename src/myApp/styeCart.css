@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.cart{
+    width: 100%;
+    padding: 20px 30px;
+
+}
+.cart h3{
+    font-size: 32px;
+    text-transform: uppercase;
+    color: orangered;
+    letter-spacing: 1px;
+
+}
+.cart .empty-cart{
+    width: 100%;
+    align-items: center;
+}
+.cart .empty-cart h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: crimson;
+
+}
+.cart .empty-cart button{
+    margin-left: 45%;
+    padding: 10px 30px;
+    margin-top: 30px;
+    background-color: red;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+.cart .empty-cart button:hover{
+   background-color: yellow;
+   color: navy;
+}
+.cart .container {
+    max-width: 100%;
+    padding: 10px 20px;
+
+}
+.cart .container .box{
+    display: flex;
+    width: 100%;
+    border-bottom: 2px solid rgb(226, 212, 214);
+    height: 250px;
+    margin-top: 40px;
+}
+.cart .container .box .img-box img{
+    width: 270px;
+    height: 200px;
+}
+.cart .container .box .detail{
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.cart .container .box .detail .info{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.cart .container .box .detail .info h4{
+
+    text-transform: uppercase;
+    font-size: 14px;
+    color: rgb(225, 223, 223)
+}
+.cart .container .box .detail .info h3{
+margin-top: 10px;
+color: crimson;
+font-size: 16px;
+text-transform: uppercase;
+letter-spacing: 1px;
+font-weight: 600;
+}
+.cart .container .box .detail .info p{
+    margin-top: 10px;
+    color: brown;
+    text-transform: uppercase;
+
+}
+.cart .container .box .detail .quality{
+margin-top: 65px;
+margin-left: 30px;
+display: flex;
+}
+.cart .container .box .detail .quality button{
+padding: 10px 20px;
+color: white;
+border: none;
+background-color: orangered;
+font-weight: 600;
+height: 40px;
+font-size: 20px;
+cursor: pointer;
+
+}
+
+.cart .container .box .detail .quality input{
+ height: 40px;
+ padding: 10px 20px;
+ background: none;
+ border: none;
+ outline:  none;
+ border: 2px solid purple;
+ font-size: 14px;
+ font-weight: 600;
+ width: 70px;
+
+}
+.cart .container .box .detail .icon{
+margin-top: 63px;
+margin-left: 40px;
+font-size: 30px;
+color: black;
+}
+.cart .container .box .detail .icon li{
+list-style: none;
+cursor: pointer;
+}
+.cart .bottom .total h4{
+    font-size: 22px;
+    color: brown;
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
+.cart .bottom button{
+    padding: 10px 20px;
+    border: none;
+    background: none;
+    outline: none;
+    background-color: purple;
+    color: ghostwhite;
+    font-size: 16px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-top: 20px;
+    
+}
+.cart .bottom button:hover{
+    background-color: green;
+
+}

@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+}
+.header .top-header{
+    max-width: 100%;
+    display: flex;
+    padding: 10px 10px;
+    background-color:orangered ;
+    color: white;
+}
+.header .top-header .icon{
+    margin-left: 20px;
+  
+    font-size: 30px;
+}
+
+.header .top-header .info p{
+    margin-left: 20px;
+    margin-top: 5px;
+    font-size: 16px;
+}
+.header .mid-header{
+    display: flex;
+    padding: 20px 40px;
+    max-width: 100%;
+    justify-content: space-between;
+}
+.header .mid-header .logo{
+    font-size: 40px;
+    cursor: pointer;
+    font-family: Algerian;
+    color: orangered;
+}
+.header .mid-header .search-box input{
+    padding: 10px 10px;
+    outline: none;
+    background: none;
+    border-top-left-radius : 10px;
+    border-bottom-left-radius : 10px;
+    width: 250px;
+    background-color: rgb(205, 199, 199);
+    border: none
+}
+.header .mid-header .search-box button{
+    padding: 10px 9px;
+    width: 50px;
+   border: none;
+    border-top-right-radius : 10px;
+    border-bottom-right-radius : 10px;
+    background-color: crimson;
+    color: white;
+    cursor: pointer;
+    transform: 0.5s;
+}
+.header .mid-header .search-box button:hover{
+    background-color: white;
+    color: crimson;
+    border: 1px solid crimson;
+}
+.header .mid-header .user{
+    display: flex;
+    margin-right: 30px;
+}
+.header .mid-header .user .icon{
+    margin-right: 10px;
+}
+.header .mid-header .user  button{
+    border: none;
+    outline: none;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px 10px;
+    margin-top: -10px;
+    background-color: orangered;
+    color: white;
+  
+}
+.header .last-header {
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    background-color: rgb(231, 182, 164);
+    justify-content: space-between;
+}
+.header .last-header .user-profile{
+    display: flex;
+    margin-top: 5px;
+}
+.header .last-header .user-profile .icon{
+    padding: 10px 10px;
+    font-size: 29px;
+    color: brown;
+}
+.header .last-header .user-profile .info{
+    margin-left: 10px;
+    
+}
+.header .last-header .user-profile .info h2{
+color: brown;
+font-size: 16px;
+margin-top: 10px;
+
+}
+.header .last-header .user-profile .info p{
+    color: rgb(21, 14, 14);
+    font-size: 14px;
+}
+.infop{
+    margin-top: 15px;
+   
+}
+.header .last-header .nav{
+    margin-top: 10px;
+}
+.header .last-header .nav ul{
+ display: flex;
+
+}
+.header .last-header .nav ul li{
+    list-style: none;
+}
+.header .last-header .nav ul li .link{
+margin-right: 20px;
+text-decoration: none;
+color: brown;
+font-weight: 600;
+transition: 0.5s;
+font-size: 18px;
+}
+.header .last-header .nav ul li .link:hover{
+color: rgb(215, 118, 137) ;
+}
+.header .last-header .offer{
+    margin-right: 20px;
+    padding: 20px ;
+    background-color: gainsboro ;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+

@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.contact{
+    padding: 20px 40px;
+    width: 100%;
+
+}
+.contact .container{
+    padding: 10px 20px;
+    max-width: 100%;
+}
+.contact .container .form{
+    width: 400px;
+    background-color: rgb(239, 207, 239);
+    padding: 20px 30px;
+    box-shadow: purple 0px 3px 8px;
+    margin: 0px auto;
+    border-top: 3px solid orangered;
+}
+.contact .container .form h2{
+color: crimson;
+text-transform: uppercase;
+font-size: 18px;
+font-weight: 600;
+
+}
+.contact .container .form .box{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.contact .container .form .box .label h4{
+
+    margin-left: 30px;
+    color: rgb(145, 19, 44);
+    font-size: 16px;
+    
+}
+.contact .container .form .box  .input input{
+
+    margin-right: 30px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid palevioletred;
+    background: none;
+    padding: 5px 20px;
+}
+.contact .container .form .box textarea{
+    margin-right: 30px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid palevioletred;
+    background: none;
+    padding: 5px 20px;
+    resize: none;
+}
+.contact .container .form  button{
+    margin-left: 30%;
+    padding: 10px 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    background-color: red;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+.contact .container .form  button:hover{
+
+    background-color: white;
+    border: 1px solid crimson;
+    color: crimson;
+}
